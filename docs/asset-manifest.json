@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-landing-page/static/css/main.e1168af9.chunk.css",
+    "main.js": "/react-landing-page/static/js/main.9ebbd6e3.chunk.js",
+    "main.js.map": "/react-landing-page/static/js/main.9ebbd6e3.chunk.js.map",
+    "runtime-main.js": "/react-landing-page/static/js/runtime-main.a40f56c1.js",
+    "runtime-main.js.map": "/react-landing-page/static/js/runtime-main.a40f56c1.js.map",
+    "static/css/2.8936a6e9.chunk.css": "/react-landing-page/static/css/2.8936a6e9.chunk.css",
+    "static/js/2.8e061a87.chunk.js": "/react-landing-page/static/js/2.8e061a87.chunk.js",
+    "static/js/2.8e061a87.chunk.js.map": "/react-landing-page/static/js/2.8e061a87.chunk.js.map",
+    "index.html": "/react-landing-page/index.html",
+    "precache-manifest.564f77dab9a2a71799deb95cadc7f105.js": "/react-landing-page/precache-manifest.564f77dab9a2a71799deb95cadc7f105.js",
+    "service-worker.js": "/react-landing-page/service-worker.js",
+    "static/css/2.8936a6e9.chunk.css.map": "/react-landing-page/static/css/2.8936a6e9.chunk.css.map",
+    "static/css/main.e1168af9.chunk.css.map": "/react-landing-page/static/css/main.e1168af9.chunk.css.map",
+    "static/js/2.8e061a87.chunk.js.LICENSE.txt": "/react-landing-page/static/js/2.8e061a87.chunk.js.LICENSE.txt",
+    "static/media/GC_logo.svg": "/react-landing-page/static/media/GC_logo.0662d9de.svg",
+    "static/media/ITN_logo.svg": "/react-landing-page/static/media/ITN_logo.2f311a05.svg",
+    "static/media/energetics.jpg": "/react-landing-page/static/media/energetics.43f9dac6.jpg",
+    "static/media/energy.jpg": "/react-landing-page/static/media/energy.fb084e1e.jpg",
+    "static/media/HeroBlock.scss": "/react-landing-page/static/media/hero-bg.5d86912d.jpg",
+    "static/media/industry.jpg": "/react-landing-page/static/media/industry.5ec44869.jpg",
+    "static/media/shid_emozhl_logo.svg": "/react-landing-page/static/media/shid_emozhl_logo.341a487c.svg",
+    "static/media/sity_planing.jpg": "/react-landing-page/static/media/sity_planing.f8f67844.jpg",
+    "static/media/slide-1.jpg": "/react-landing-page/static/media/slide-1.7e1db0da.jpg",
+    "static/media/slide-2.jpg": "/react-landing-page/static/media/slide-2.12a25e24.jpg",
+    "static/media/slide-3.jpg": "/react-landing-page/static/media/slide-3.638ec227.jpg",
+    "static/media/slide-4.jpg": "/react-landing-page/static/media/slide-4.8a21e8b7.jpg",
+    "static/media/slide-5.jpg": "/react-landing-page/static/media/slide-5.bb9f49bb.jpg",
+    "static/media/transport.jpg": "/react-landing-page/static/media/transport.65643b05.jpg",
+    "static/media/utilisation.jpg": "/react-landing-page/static/media/utilisation.a8b6caee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a40f56c1.js",
+    "static/css/2.8936a6e9.chunk.css",
+    "static/js/2.8e061a87.chunk.js",
+    "static/css/main.e1168af9.chunk.css",
+    "static/js/main.9ebbd6e3.chunk.js"
+  ]
+}
