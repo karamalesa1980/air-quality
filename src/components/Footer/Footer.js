@@ -1,15 +1,15 @@
+ 
 import React from 'react';
 import './Footer.scss';
 
 const Footer = ({partners, links, author, designer}) => {
-	const partnersLogos = partners.map((logo, i) => <img key={i} src={logo} alt={'partner logo'}
-																											 className="footer-partners-item"/>);
+	const partnersLogos = partners.map((logo, i) => <img key={i} src={logo} alt={'partner logo'} className="footer-partners-item"/>);
 	const navLinks = links.map((link, i) => <a href={link.href} key={i} className={'footer-nav-link'}>{link.title}</a>)
 	
 	return (
 		<footer className="footer">
 			<div className="container">
-				<div className="footer-partners">
+				<div className="footer-partners"> 
 					{partnersLogos}
 				</div>
 				
@@ -36,3 +36,4 @@ const Footer = ({partners, links, author, designer}) => {
 };
 
 export default Footer;
+

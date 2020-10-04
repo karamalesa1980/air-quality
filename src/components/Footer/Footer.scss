@@ -1,4 +1,118 @@
 .footer {
+  padding: 10px 0;
+  border-top: 1px solid #FFFFFF;
+ 
+  @media (min-width: 576px){
+
+  }
+  &-partners {
+    display: flex;
+    // display: ;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    width: 100%;
+    height: 50px;
+    margin-bottom: 58px;
+    
+    @media (min-width: 576px){
+      width: 50%;
+      height: 70px;
+      margin-bottom: 30px;
+      // width: 10%;
+      // height: 40px;
+      // margin-bottom: 50px;
+    }
+
+    &-item {
+      max-width: 80px;
+      height: auto;
+    }
+  }
+     
+  &-text-wrap {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 82px;
+
+    @media (min-width: 576px){
+      flex-direction: row;
+      justify-content: space-between;
+
+      margin-bottom: 0;
+    }
+  }
+
+  &-nav {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 105px;
+
+    text-align: center;
+
+    @media (min-width: 576px){
+      margin-bottom: 95px;
+
+      text-align: left;
+    }
+    &-link {
+      margin-bottom: 10px;
+
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      text-decoration: none;
+      color: #fff;
+      
+
+      @media (min-width: 576px){
+        margin-bottom: 20px;
+
+        font-size: 17px;
+        line-height: 20px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:hover{
+        color: rgb(195, 94, 241);
+        -moz-text-shadow: 0 0 14px rgb(112, 12, 158);
+        -webkit-text-shadow: 0 0 14px rgb(112, 12, 158);
+        text-shadow: 0 0 14px rgb(112, 12, 158);
+      }
+    }
+  }
+
+
+    &-text {
+      max-width: 366px;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 19px;
+  
+      color: #fff;
+  
+      @media (min-width: 576px){
+        font-size: 17px;
+        line-height: 20px;
+      }
+  
+  &-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+}
+.text-yellow {
+  color: #EDE852;
+}
+}
+.footer {
   border-top: 1px solid #FFFFFF;
 
   &-partners {
@@ -6,7 +120,7 @@
     align-items: center;
 
     &-item {
-      margin-right: 120px;
+      margin-right: 8px;
 
       &:last-child {
         margin-right: 0;
@@ -38,7 +152,7 @@
     }
 
     &-text {
-      width: 366px;
+      width: 355px;
       font-weight: normal;
       font-size: 17px;
       line-height: 20px;
@@ -53,7 +167,4 @@
     color: #fff;
     margin-bottom: 14px;
   }
-}
-.text-yellow {
-  color: #EDE852;
 }
