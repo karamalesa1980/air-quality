@@ -4,15 +4,15 @@ import Nav from "../nav/nav";
 import "./header.scss";
 import "./btn.scss";
 
-const Header = ({ title, logos, links }) => {
-    const logosImages = logos.map((logo, i) => <img src={logo} alt="partner logo" className="header-partners-item" key={i} />);
-    const navLinks = links.map((link, i) => <a href={link.href} className="header-nav-item" key={i}>{link.title}</a>);
+const Header = (props) => {
+    const logosImages = props.logos.map((logo, i) => <img src={logo} alt="partner logo" className="header-partners-item" key={i} />);
+    const navLinks = props.links.map((link, i) => <a href={link.href} className="header-nav-item" key={i}>{link.title}</a>);
 
     let [isMenuOpen, setMenuStatus] = useState(false);
     const closeMenu = () => {
         setMenuStatus(!isMenuOpen);
     };
-    const navMenu = <Nav links={links} onClick={closeMenu} />;
+    const navMenu = <Nav links={props.links} onClick={closeMenu} />;
 
     let [btnFixed, setBtn] = useState(false);
     const handleScroll = () => {
@@ -47,7 +47,7 @@ const Header = ({ title, logos, links }) => {
                             : <div>{isMenuOpen ? navMenu : null}</div>
                     }
                 </MediaQuery>
-                <h1 className="header-title">{title}</h1>
+                <h1 className="header-title">{props.title}</h1>
                 <a href="#maps" className="header-btn">Отследить</a>
                 <div className="header-toBottom"> </div>
             </div>
